@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--create a class container for responsiveness-->
+    <div class="container">
+        <header>
+            <h1>Password generator</h1>
+        </header>
+        <!--wrapped up in a template so css can easily be manipulated-->
+        <div class="template">
+            <div class="template-header col-lg-12 col-md-12 col-xs-4">
+                <h2>Generate a password</h2>
+            </div>
+            <!--first part of template containing displayed password-->
+            <div class="template-body col-lg-12 col-md-12 col-xs-4">
+                <textarea readonly id="password" placeholder="Your Secure Password"
+                    aria-label="Generated Password"></textarea>
+            </div>
+            <!--generate button-->
+            <div class="template-footer col-lg-12 col-md-12 col-xs-4">
+                <button class="generator">Generate Password</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

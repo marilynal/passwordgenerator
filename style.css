@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+    margin-top: 100px;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+}
+
+#password {
+    height: 50px;
+    width: 250px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    background-color: gold;
+}
+
+.generator {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+button:hover {
+    height: 45px;
+    width: 145px;
+    font-size: 12px;
+}
+
+/* @media??
